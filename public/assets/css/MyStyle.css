@@ -1,0 +1,372 @@
+.error_input {
+	border: 1px solid #ff3333;
+}
+
+.successMessage{
+	width: 65%;
+	color: #fff;
+	border: 1px solid #a6a6a6;
+	margin: auto;
+	text-align: center;
+	font-size: 32px;
+	background: linear-gradient(to right, #0066cc 0%, #cc33ff 100%);
+	box-shadow: 3px 2px 2px #ccc;
+	display: none;
+}
+
+.successMessage .box_v{
+	padding-bottom: 1%;	
+	padding-top: 1%;
+}
+
+.return_value{
+	border: 1px solid #fff;
+}
+
+.successMessage a{
+	font-size: 34px;
+	text-decoration: underline;
+	color: #000;
+	font-weight: bold;
+}
+
+.caption_return_value{
+	font-weight: bold;
+}
+
+.successMessage a:hover{
+	color:#fff;
+}
+
+.btn_copy {
+	padding: 1% 0 1% 0;	
+}
+
+.btn_copy button{
+	color: #fff;
+	width: 20%;
+}
+
+.btn_copy button:hover{
+	color:#fff;
+}
+
+
+/********************************************Faucet***********************************************/
+
+.caption_faucet{
+	text-align: center;
+	margin-top: 2%;	
+	font-weight: bold;
+	background-color: #fff;
+	font-size: 30px;
+  color: #5d6dc3;
+}
+
+.faucet_content{
+	margin-top: 2%;	
+	background-color: #fff;
+	padding: 1% 0 1% 0; 
+}
+
+.caption_send_faucet{
+  font-size:22px;
+  font-weight: bold;
+  color: #5d6dc3;
+}
+
+.value_send_faucet{
+  border:1px solid #cccccc;
+  border-radius: 20px;
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: 18px;
+  padding: 1% 0% 1% 2%;
+
+}
+
+
+/******************************************End*Faucet*********************************************/
+
+
+
+/* =============
+   Card
+============= */
+/**************************************certificate*************************************************/
+
+
+
+#certificate{
+  width:60%;
+  height: 850px;
+  background: #ff66d9;
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.header-cer{
+  width: 100%;
+  height: 17%;
+  background: url(../images/background_certif-11.jpg) no-repeat;
+  background-size: cover;
+}
+
+.header-cer1{
+  width: 100%;
+  height: 97%;
+}
+
+.header-cer1 .col1{
+  width: 60%;
+  float: left;
+  padding-left: 7%;
+
+}
+
+.header-cer1 .col1 .row1{
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 27px;
+  font-weight: bold;
+  padding-top: 4%;
+
+}
+
+.header-cer1 .col1 .row2{
+  color: #ffffff;
+  padding:0;
+  margin:0;
+  font-size: 65px;
+  font-family: Courier New;
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+
+.header-cer1 .col2{
+  width: 40%;
+  float: right;
+  padding-left: 20%;
+}
+
+.header-cer1 .col2 .row1{
+  font-family: Tahoma;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 12%;
+  text-decoration: underline;
+  width: 100%;
+  float: right;
+  padding-right: 30%;
+
+}
+
+.header-cer1 .col2 .row2{
+  color: #ffffff;
+  font-size: 30px;
+  font-family: Courier New;
+  font-weight: bold;
+  margin-top: -10px;
+  float: right;
+  padding-right: 42%;
+}
+ 
+.header-cer2{
+  height: 3%;
+  width: 100%;
+  float: left;;
+}
+
+.header-cer2 .col1 {
+  background: #ffdb4d;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.header-cer2 .col2 {
+  background:  #4d94ff;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+
+.header-cer2 .col3 {
+  background:  #ff3333;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.header-cer2 .col4 {
+  background: #1aff1a;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.header-cer2 .col5 {
+  background: #ffdb4d;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.header-cer2 .col6 {
+  background:  #4d94ff;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.header-cer2 .col7 {
+  background:  #ff3333;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.header-cer2 .col8 {
+  background:  #1aff1a;
+  width: 12.5%;
+  height: 100%;
+  float: left;;
+}
+
+.banner-cer{
+  width: 100%;
+  height: 77%;
+  padding-top: 3%;
+  background: #ffffff;
+
+}
+
+.banner-center{
+  font-family: impact;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  padding: 1% 0 1% 0;
+}
+
+.banner-left{
+  padding-left:5%;
+}
+
+.banner-left .left-top {
+  padding-bottom: 8%;
+}
+
+.banner-left .left-top .top{
+  padding-top: 7%;
+}
+
+.banner-left .left-top span{
+  font-size: 23px;
+  font-family: tahoma;
+  color: #000000; 
+}
+
+.banner-left .left-top input{
+  text-align: center;
+  float: right;
+  margin-right: 10%;
+  border:none;
+  border-bottom: 2px solid #cccccc;
+  font-size: 20px;
+  width: 50%;
+
+}
+
+.left-bottom{
+  font-size: 23px;
+  color: #000000;
+  padding-top: 3%;
+}
+
+.left-bottom span{
+  padding-right: 10%;
+  font-family: tahoma;
+}
+
+.left-bottom input{
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  font-size: 20px;
+  width:35%;
+  font-family: tahoma;
+  text-align: center;
+
+}
+
+.banner-right{
+
+}
+
+.footer-cer{
+  background: url(../images/background_certif-11.jpg) no-repeat;
+  background-size: cover;
+  height: 6%;
+}
+
+.footer-top{
+  height: 10%;
+}
+
+.footer-top .col1 {
+  background: #ffdb4d;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.footer-top .col2 {
+  background:  #4d94ff;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+
+.footer-top .col3 {
+  background:  #ff3333;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.footer-top .col4 {
+  background: #1aff1a;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.footer-top .col5 {
+  background: #ffdb4d;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.footer-top .col6 {
+  background:  #4d94ff;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.footer-top .col7 {
+  background:  #ff3333;
+  width: 12.5%;
+  height: 100%;
+  float: left;
+}
+.footer-top .col8 {
+  background:  #1aff1a;
+  width: 12.5%;
+  height: 100%;
+  float: left;;
+}
+
+.bottom-right{
+  font-style: italic;
+  font-family: time new roman;
+  font-size: 20px;
+  color: #FFFFFF;
+  float: right;
+  padding-right: 5%;
+  padding-top: 1%;
+}
+/***************************************certificate************************************************/
